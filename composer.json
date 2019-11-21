@@ -11,5 +11,12 @@
         "psr-4": {
             "Madewithlove\\NovaUuidSupport\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madewithlove\\NovaUuidSupport\\NovaUuidSupportServiceProvider"
+            ]
+        }
     }
 }
