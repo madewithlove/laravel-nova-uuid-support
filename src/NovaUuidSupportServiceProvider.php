@@ -8,6 +8,8 @@ class NovaUuidSupportServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        // @todo: load migrations
+        if ($this->app->runningInConsole()) {
+            $this->loadMigrationsFrom(__DIR__.'/../database/migrations/');
+        }
     }
 }
