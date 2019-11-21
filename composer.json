@@ -1,0 +1,7 @@
+{
+    "name": "madewithlove/laravel-nova-uuid-support",
+    "description": "Adds uuid and other string identifier support to Laravel Nova",
+    "type": "library",
+    "license": "MIT",
+    "require": {}
+}
