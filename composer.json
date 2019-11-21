@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Madewithlove\\": "src"
+            "Madewithlove\\NovaUuidSupport\\": "src"
         }
     }
 }
