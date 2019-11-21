@@ -3,5 +3,7 @@
     "description": "Adds uuid and other string identifier support to Laravel Nova",
     "type": "library",
     "license": "MIT",
-    "require": {}
+    "require": {
+        "php": "^7.1",
+    }
 }
