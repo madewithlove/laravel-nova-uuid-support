@@ -14,4 +14,4 @@ composer require madewithlove/laravel-nova-uuid-support
 php artisan migrate
 ```
 
-That's it, your Laravel Nova installation can now handle entities and users with string identifiers.
+That's it, your Laravel Nova installation can now handle resources and users with string identifiers.
