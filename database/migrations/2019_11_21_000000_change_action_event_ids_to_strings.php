@@ -28,11 +28,6 @@ class ChangeActionEventIdsToStrings extends Migration
      */
     public function down()
     {
-        Schema::table('action_events', function (Blueprint $table) {
-            $table->integer('actionable_id')->unsigned()->change();
-            $table->integer('model_id')->unsigned()->change();
-            $table->integer('target_id')->unsigned()->change();
-            $table->integer('user_id')->unsigned()->change();
-        });
+        // this migration cannot be rolled back without losing data
     }
 }
